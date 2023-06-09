@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         Addition addition=new Addition();
-        int result=addition.sum(2,2,3,4);
+        int result=addition.sum(-2,-2);
+
         System.out.println("addition = " + result);
     }
 }

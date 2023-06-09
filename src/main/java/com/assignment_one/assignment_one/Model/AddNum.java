@@ -6,7 +6,6 @@ public class AddNum implements Adding_One {
         int n1= -5, n2= 6;
         int sum = n1 + n2;
         if (n1 <0 || n2 <0){
-            System.out.println("Input number is negative");
         }else{
         System.out.println(sum);
     }}}
